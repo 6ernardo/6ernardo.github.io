@@ -13,6 +13,7 @@ export const projects = [
         name: 'Flying Bee',
         date: new Date('2024-05-21'),
         description: 'Final Project of the Computer Graphics unit. Built using WebGL and JS.',
+        image: 'projects/flyingbee.png',
         repo: 'https://github.com/6ernardo/feup-CGRA-proj',
         site: 'https://6ernardo.github.io/feup-CGRA-proj/'
     },
