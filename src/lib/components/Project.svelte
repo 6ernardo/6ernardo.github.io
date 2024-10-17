@@ -3,7 +3,7 @@
 </script>
 
 <article class="relative flex flex-col overflow-hidden rounded bg-slate-800 p-2 md:p-4">
-    <h3 class="text-2xl font-semibold {project.image ? 'absolute top-0 left-0 p-2 bg-slate-800 rounded-br' : ''}">{project.name}</h3>
+    <h3 class="text-2xl font-semibold {project.image ? 'absolute top-0 left-0 p-2 bg-slate-800 rounded-br shadow-lg' : ''}">{project.name}</h3>
     {#if project.image}
         <img class="-m-2 mb-2 aspect-video h-auto w-[calc(theme(spacing.4)+100%)] max-w-[unset] object-cover md:-m-4 md:mb-2 md:w-[calc(theme(spacing.8)+100%)]" src={project.image} alt=""/>
     {/if}
