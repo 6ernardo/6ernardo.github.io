@@ -19,7 +19,16 @@
       alt=""
     />
   {/if}
-  <p class="mb-auto mt-1">{project.description}</p>
+  <p class="{project.tags ? '' : 'mb-auto'} mt-1">{project.description}</p>
+
+  {#if project.tags}
+    <div class="flex mt-1.5 mb-auto">
+      {#each project.tags as tag}
+        <div class="mr-2 text-sm bg-slate-900 p-1.5 rounded" >{tag}</div>
+      {/each}
+    </div>
+  {/if}
+  
   <nav class="flex">
     <a href={project.repo} target="_blank" rel="noopener noreferrer"
       ><img class="size-7 m-1 mt-2 mr-3" src="icons/github.svg" alt="" /></a
