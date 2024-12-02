@@ -26,22 +26,3 @@
         </div>
     </nav>
 </header>
-
-<!-- <header class="h-screen w-screen flex justify-center items-center bg-slate-800">
-    <nav class="text-center">
-        <a class="block mb-4 text-6xl" href="/">
-            <h1>Bernardo <b class="font-bold">Campos</b></h1>
-        </a>
-        <div class="space-x-16">
-            {#each tabs as t}
-                <a 
-                    class="text-2xl"
-                    href={t.link} 
-                    aria-current={$page.url.pathname === t.link}
-                >
-                    {t.text}
-                </a>
-            {/each}
-        </div>
-    </nav>
-</header> -->

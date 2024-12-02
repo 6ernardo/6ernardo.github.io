@@ -27,7 +27,7 @@ export const projects = [
     description:
       "Project of the LBAW Unit. Q&A Platform similar to Reddit",
     repo: "https://github.com/6ernardo/feup-LBAW",
-    tags: ['html', 'css', 'laravel', 'postgresql']
+    tags: ['html', 'css', 'laravel', 'postgresql', 'javascript']
   },
   {
     id: "feup-comp",
@@ -43,25 +43,29 @@ export const projects = [
     name: "Ticket Website",
     date: new Date("2023-06-30"),
     description:
-      "Project for the LTW unit. Built a Ticket Website using PHP, HTML/CSS, SQLite and JS.",
-    repo: "https://github.com/6ernardo/feup-COMP",
+      "Project for the LTW unit. Plataform for support ticket management.",
+    repo: "https://github.com/6ernardo/feup-LTW-proj",
+    tags: ['php', 'html', 'css', 'sqlite', 'javascript']
   },
   {
     id: "feup-LDTS-proj",
     name: "Thin Ice",
     date: new Date("2023-06-17"),
     description:
-      "Project for the LDTS unit. Built a simple terminal minigame using Java and Lanterna GUI Framework.",
+      "Project for the LDTS unit. Club Penguin's Thin Ice minigame clone.",
     image: "projects/thinice.png",
     repo: "https://github.com/6ernardo/feup-LDTS/tree/master/proj",
+    tags: ['java', 'lanterna', 'oop']
   },
   {
     id: "portfolio",
     name: "Portoflio Website",
     date: new Date("2024-10-07"),
     description:
-      "Website you are currently on. Personal portfolio, built using svelte.",
+      "Website you are currently on. Personal website/portfolio.",
     image: "projects/portfolio.png",
     repo: "https://github.com/6ernardo/6ernardo.github.io",
+    site: "https://6ernardo.github.io/",
+    tags: ['svelte' ,'javascript', 'tailwindcss']
   },
 ];

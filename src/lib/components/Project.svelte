@@ -22,9 +22,9 @@
   <p class="{project.tags ? '' : 'mb-auto'} mt-1">{project.description}</p>
 
   {#if project.tags}
-    <div class="flex mt-1.5 mb-auto">
+    <div class="flex flex-wrap mt-0.5 mb-auto">
       {#each project.tags as tag}
-        <div class="mr-2 text-sm bg-slate-900 p-1.5 rounded" >{tag}</div>
+        <div class="mr-2 mt-1 text-sm bg-slate-900 p-1.5 rounded text-slate-300" >{tag}</div>
       {/each}
     </div>
   {/if}
