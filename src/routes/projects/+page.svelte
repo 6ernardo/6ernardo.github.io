@@ -3,6 +3,10 @@
     import {projects} from "$lib/projects.js";
 </script>
 
+<svelte:head>
+    <title>Projects | Bernardo Campos</title> 
+</svelte:head>
+
 <h2 class="text-4xl max-w-screen-xl m-auto mb-5">Projects</h2>
 
 <div class="max-w-screen-xl mx-auto grid grid-cols-1 gap-4 sm:grid-cols-[repeat(auto-fill,minmax(theme(spacing.64),1fr))]">

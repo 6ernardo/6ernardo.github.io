@@ -14,6 +14,10 @@
 
 </script>
 
+<svelte:head>
+    <title>Contacts | Bernardo Campos</title> 
+</svelte:head>
+
 <h2 class="text-4xl max-w-screen-xl m-auto mb-5">Contact me</h2>
 
 {#each contacts as cont}

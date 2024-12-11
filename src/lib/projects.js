@@ -26,6 +26,7 @@ export const projects = [
     date: new Date("2023-12-21"),
     description:
       "Project of the LBAW Unit. Q&A Platform similar to Reddit.",
+    image: "projects/upconnect.png",
     repo: "https://github.com/6ernardo/feup-LBAW",
     tags: ['html', 'css', 'laravel', 'postgresql', 'javascript']
   },
@@ -44,6 +45,7 @@ export const projects = [
     date: new Date("2023-06-30"),
     description:
       "Project for the LTW unit. Plataform for support ticket management.",
+    image: "projects/ticketwebsite.png",
     repo: "https://github.com/6ernardo/feup-LTW-proj",
     tags: ['php', 'html', 'css', 'sqlite', 'javascript']
   },
@@ -76,6 +78,17 @@ export const projects = [
       "Project for the LCOM unit. Drawing tool using device drivers built from scratch.",
     image: "projects/vsdraw.png",
     repo: "https://github.com/6ernardo/feup-LCOM/tree/master/proj",
-    tags: ['c' , 'drivers']
+    tags: ['c' , 'drivers', 'minix']
+  },
+  {
+    id: "sandsimulator",
+    name: "Sand Simulator",
+    date: new Date("2024-12-11"),
+    description:
+      "Simple particle simulator.",
+    image: "projects/sandsimulator.png",
+    repo: "https://github.com/6ernardo/sandsimulator",
+    site: "https://6ernardo.github.io/sandsimulator/",
+    tags: ['p5.js' , 'javascript']
   },
 ];
